@@ -1,0 +1,16 @@
+name = "website-demo"
+main = "worker.js"
+compatibility_date = "2026-10-27"
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "scam-report-db"
+database_id = "c4a95ade-d4f6-4bc1-ba2c-f1733c47132c"
+
+[[r2_buckets]]
+binding = "EVIDENCE_BUCKET"
+bucket_name = "scam-evidence"
